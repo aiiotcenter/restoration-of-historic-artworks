@@ -57,16 +57,6 @@ Browser opens at <http://127.0.0.1:7860>. Two modes:
 All output images come with a built-in toolbar: zoom in / out / reset /
 fullscreen, plus drag-to-pan when zoomed.
 
-### 4. Regenerate the thesis and slides
-
-```bash
-python thesis/generate_thesis.py    # writes thesis/thesis.docx
-python thesis/generate_slides.py    # writes thesis/presentation.pptx
-```
-
-Both scripts pull live numbers from `outputs/outputs/eval/tables/*.csv`,
-so any re-evaluation automatically propagates to the documents.
-
 ## Project structure
 
 ```
